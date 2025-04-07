@@ -1,0 +1,22 @@
+{
+  "name": "mcp-filesystem-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx @modelcontextprotocol/inspector node src/index.ts",
+    "dev": "npx @modelcontextprotocol/inspector node src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "zod": "^3.20.0",
+    "glob": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/glob": "^8.0.0",
+    "tsx": "^4.0.0"
+  }
+}
